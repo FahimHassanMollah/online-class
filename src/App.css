@@ -1,3 +1,9 @@
+.fixed-tops {
+  position: fixed;
+  top: 81px;
+  right: 0;
+  z-index: 1030;
+}
 .App {
   text-align: center;
 }

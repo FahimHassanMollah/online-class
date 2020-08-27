@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className='container-fluid'>
+                <div className='container'>
                 <a className="navbar-brand" href="#">
                     
                     <img style={{ width:"40px", height:"40px"}} src={logo}  alt=""/>
@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-link active" href="/Courses">Courses <span className="sr-only">(current)</span></a>
-                        <a className="nav-link" href="/Features">Features</a>
+                        <a className="nav-link" href="/Categories">Categories</a>
                         <a className="nav-link" href="/Pricing">Pricing</a>
                         
                     </div>
